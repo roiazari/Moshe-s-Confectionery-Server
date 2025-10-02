@@ -1,0 +1,15 @@
+# env files (secrets – do not commit)
+.env
+.env.local
+.env.*.local
+
+# dependencies
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# misc
+.DS_Store
+dist/
+coverage/
